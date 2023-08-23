@@ -1,6 +1,16 @@
-# QR_Code_Scanner_and_Generator
+# qr_code_scanner_and_generator
 
-QR Code Scanner and Generator Application built using Dart programming language and Flutter Framework.   
+A new Flutter project.
 
-Available on Google Play: 
-link: https://play.google.com/store/apps/details?id=com.Abdullah_alhakimi.qr_code_scanner_and_generator&amp;pli=1
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
