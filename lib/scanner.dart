@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_qr_bar_scanner/qr_bar_scanner_camera.dart';
 import 'package:qr_code_scanner_and_generator/Models/ad_open_model.dart';
-import 'package:qr_code_scanner_and_generator/main.dart';
 
 class Second extends StatefulWidget {
   @override

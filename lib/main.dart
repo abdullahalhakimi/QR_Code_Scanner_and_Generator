@@ -46,13 +46,13 @@ class _HomeState extends State<Home> {
   @override
   void initState() {
     super.initState();
-    _initBannerAd();
+    //_initBannerAd();
   }
 
   @override
   void dispose() {
     super.dispose();
-    _bannerAd.dispose();
+    //_bannerAd.dispose();
   }
 
   void _initBannerAd() {
@@ -235,13 +235,13 @@ class _HomeState extends State<Home> {
             First(),
           ],
         ),
-        bottomNavigationBar: _isAdLoaded
-            ? Container(
-                height: _bannerAd.size.height.toDouble(),
-                width: _bannerAd.size.width.toDouble(),
-                child: AdWidget(ad: _bannerAd),
-              )
-            : SizedBox(),
+        // bottomNavigationBar: _isAdLoaded
+        //     ? Container(
+        //         height: _bannerAd.size.height.toDouble(),
+        //         width: _bannerAd.size.width.toDouble(),
+        //         child: AdWidget(ad: _bannerAd),
+        //       )
+        //     : SizedBox(),
       ),
     );
   }

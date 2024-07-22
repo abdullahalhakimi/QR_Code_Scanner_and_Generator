@@ -1,10 +1,7 @@
-import 'dart:developer';
 import 'dart:io';
-import 'dart:ui';
 // Developed by Abdullah Al-Hakimi
 import 'package:barcode_widget/barcode_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_code_scanner_and_generator/Models/ad_interstitial_model.dart';
 
 class First extends StatefulWidget {
   @override
