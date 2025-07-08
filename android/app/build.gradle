@@ -36,8 +36,9 @@ if (keystorePropertiesFile.exists()) {
 
 
 android {
-    compileSdkVersion 34
-    ndkVersion flutter.ndkVersion
+    namespace "com.Abdullah_alhakimi.qr_code_scanner_and_generator"
+    compileSdkVersion 35
+    ndkVersion "25.1.8937393"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -58,7 +59,7 @@ android {
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
         minSdkVersion 19
-        targetSdkVersion 34
+        targetSdkVersion 35
         multiDexEnabled = true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
